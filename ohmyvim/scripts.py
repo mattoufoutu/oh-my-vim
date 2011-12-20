@@ -39,7 +39,7 @@ source %(ohmyvim)s
 
 '''
 
-GIT_URL = "https://github.com/gawel/oh-my-vim.git"
+GIT_URL = "https://github.com/mattoufoutu/oh-my-vim.git"
 
 TOOLS = join(os.path.dirname(__file__), '..', 'tools')
 
