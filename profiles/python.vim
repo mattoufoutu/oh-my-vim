@@ -22,7 +22,7 @@ function! MatchLongLines()
         unlet w:long_line_match
     elseif &textwidth > 0
         let w:long_line_match = matchadd('ErrorMsg', '\%>'.&tw.'v.\+', -1)
-    else:
+    else
         let w:long_line_match = matchadd('ErrorMsg', '\%>80v.\+', -1)
     endif
 endfunction
